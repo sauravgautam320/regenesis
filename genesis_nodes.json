@@ -1,0 +1,611 @@
+[
+    {
+        "node_id": "bow_drill",
+        "title": "Bow drill",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "tundra",
+            "jungle",
+            "universal"
+        ],
+        "prerequisites": [],
+        "materials": [
+            "wood",
+            "cordage"
+        ],
+        "action_steps": [
+            "Wrap cord around the spindle.",
+            "Push the bow back and forth to rotate the spindle."
+        ],
+        "theory": "The bow drill utilizes a rotating spindle to create friction, generating heat to either create a hole or ignite an ember for fire starting. It\u2019s a primitive tool relying on consistent pressure and motion.",
+        "unlocks": [
+            "fire_making",
+            "cordage"
+        ]
+    },
+    {
+        "node_id": "water_filter",
+        "title": "Water filter",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "jungle",
+            "urban",
+            "desert",
+            "tundra"
+        ],
+        "prerequisites": [],
+        "materials": [
+            "cloth",
+            "charcoal"
+        ],
+        "action_steps": [
+            "Gather cloth and charcoal.",
+            "Create a layered filter using cloth and charcoal within a container."
+        ],
+        "theory": "A water filter removes impurities from water using physical barriers, chemical processes, or biological processes. Basic filters utilize layers of cloth and charcoal to trap particulate matter and some chemical contaminants, significantly improving water quality for drinking and other uses. More advanced filters employ methods like activated carbon or membrane filtration for enhanced purification.",
+        "unlocks": []
+    },
+    {
+        "node_id": "knapping",
+        "title": "Knapping",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "desert",
+            "tundra",
+            "jungle",
+            "urban",
+            "universal"
+        ],
+        "prerequisites": [],
+        "materials": [
+            "chert",
+            "obsidian"
+        ],
+        "action_steps": [
+            "Select a core of suitable stone.",
+            "Utilize a hammerstone or other tool to remove flakes."
+        ],
+        "theory": "Knapping is the technique of shaping conchoidal fracturing stone, primarily flint, chert, and obsidian, into tools and building materials through percussion. It involves controlled strikes to remove flakes and shape the stone, with factors like EPA (Exterior Platform Angle) significantly influencing the final product.",
+        "unlocks": []
+    },
+    {
+        "node_id": "wattle_and_daub",
+        "title": "Wattle and Daub",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "urban",
+            "universal"
+        ],
+        "prerequisites": [
+            "shelter",
+            "cordage"
+        ],
+        "materials": [
+            "wood",
+            "clay"
+        ],
+        "action_steps": [
+            "Gather thin branches and stakes.",
+            "Weave a wattle structure between the stakes."
+        ],
+        "theory": "Wattle and daub utilizes a woven wooden frame (wattle) covered with a sticky mixture of clay, soil, and straw to create a durable and insulating building material. It's a foundational building technique dating back millennia and is suitable for various climates.",
+        "unlocks": []
+    },
+    {
+        "node_id": "foraging",
+        "title": "Foraging",
+        "category": "survival",
+        "biomes": [
+            "universal"
+        ],
+        "prerequisites": [],
+        "materials": [],
+        "action_steps": [
+            "Search for wild food resources"
+        ],
+        "theory": "Foraging is the process of searching for wild food resources. It's influenced by factors like predator and prey, and aims to maximize energy gain per unit time, aligning with the marginal value theorem developed by Eric Charnov. Learning, particularly foraging innovation \u2013 consuming new food or techniques \u2013 is key to adaptation.",
+        "unlocks": []
+    },
+    {
+        "node_id": "cordage",
+        "title": "Cordage",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "jungle",
+            "urban"
+        ],
+        "prerequisites": [],
+        "materials": [
+            "plant fibers"
+        ],
+        "action_steps": [
+            "Gather fibrous plant material.",
+            "Process fibers into strands.",
+            "Twist or braid strands into cordage."
+        ],
+        "theory": "Cordage is essential for creating ropes and lines used for a multitude of survival applications, from securing shelter to crafting tools and weapons. Mastering cordage significantly increases a survivor's versatility and options.",
+        "unlocks": [
+            "bow_and_arrow",
+            "basketry",
+            "wattle_and_daub",
+            "shelter_building"
+        ]
+    },
+    {
+        "node_id": "woodworking",
+        "title": "Woodworking",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "urban",
+            "universal"
+        ],
+        "prerequisites": [],
+        "materials": [
+            "wood"
+        ],
+        "action_steps": [
+            "Cut wood with stone axe or other primitive tools.",
+            "Shape wood using knives and other hand tools."
+        ],
+        "theory": "Woodworking is a foundational survival skill utilizing wood to create essential tools, structures, and furniture. It represents a critical step in adapting to various environments and developing increasingly complex technologies, as evidenced by its widespread use across ancient civilizations.",
+        "unlocks": []
+    },
+    {
+        "node_id": "fire_making",
+        "title": "Fire making",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "tundra",
+            "jungle",
+            "urban",
+            "universal"
+        ],
+        "prerequisites": [],
+        "materials": [
+            "flint",
+            "pyrite",
+            "tinder fungus",
+            "charcloth",
+            "magnesium",
+            "ferrocerium",
+            "cotton balls",
+            "petroleum jelly",
+            "wood"
+        ],
+        "action_steps": [
+            "Strike flint with pyrite to create sparks.",
+            "Place tinder (e.g., tinder fungus, charcloth, magnesium shavings) in a pile.",
+            "Use sparks to ignite the tinder.",
+            "Gradually add kindling (small twigs) to the flame.",
+            "Add larger pieces of wood to sustain the fire."
+        ],
+        "theory": "Fire making involves creating an ember from tinder using heat, friction, or a spark. The goal is to raise the tinder's temperature to its autoignition point, initiating combustion.",
+        "unlocks": [
+            "campfire_cooking",
+            "meat_smoking",
+            "wattle_and_daub",
+            "adobe_brick",
+            "stone_masonry",
+            "copper_smelting"
+        ]
+    },
+    {
+        "node_id": "stone_axe",
+        "title": "Stone axe",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "tundra",
+            "jungle"
+        ],
+        "prerequisites": [
+            "foraging",
+            "knapping"
+        ],
+        "materials": [
+            "flint",
+            "quartzite"
+        ],
+        "action_steps": [
+            "Strike stone flakes from a nucleus using a hammerstone."
+        ],
+        "theory": "A basic stone tool created through repeated striking of a core stone to produce flakes, which can be shaped into a rudimentary axe head. This technique is foundational to many later stone tool technologies.",
+        "unlocks": []
+    },
+    {
+        "node_id": "basketry",
+        "title": "Basketry",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "jungle",
+            "universal"
+        ],
+        "prerequisites": [
+            "foraging",
+            "cordage"
+        ],
+        "materials": [
+            "grasses",
+            "willow",
+            "pine",
+            "vines",
+            "straw",
+            "wisteria",
+            "forsythia",
+            "stems",
+            "fur",
+            "hide"
+        ],
+        "action_steps": [
+            "Gather fibrous materials.",
+            "Prepare the materials by stripping and drying.",
+            "Create cordage for weaving.",
+            "Weave the cordage into a basket structure."
+        ],
+        "theory": "Basketry is a fundamental survival skill utilizing locally sourced, pliable materials to create containers for storage, transport, and various other applications. It relies on basic weaving techniques and a strong understanding of available plant fibers.",
+        "unlocks": [
+            "water_filter"
+        ]
+    },
+    {
+        "node_id": "pottery",
+        "title": "Pottery",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "jungle",
+            "universal"
+        ],
+        "prerequisites": [
+            "clay_gathering",
+            "fire_making"
+        ],
+        "materials": [
+            "clay"
+        ],
+        "action_steps": [
+            "Gather clay from suitable deposits.",
+            "Form clay into desired shapes.",
+            "Fire clay in a bonfire or kiln to harden it."
+        ],
+        "theory": "Pottery involves shaping clay and firing it at high temperatures to create durable vessels and objects. It\u2019s a foundational technology dating back to the Upper Paleolithic period and is crucial for cooking, storage, and artistic expression.",
+        "unlocks": []
+    },
+    {
+        "node_id": "charcoal_making",
+        "title": "Charcoal making",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "jungle",
+            "universal"
+        ],
+        "prerequisites": [],
+        "materials": [
+            "wood"
+        ],
+        "action_steps": [
+            "Gather wood billets.",
+            "Construct a charcoal pile or clamp.",
+            "Ignite the wood pile, gradually introducing air.",
+            "Maintain the fire and allow the wood to transform into charcoal over several days."
+        ],
+        "theory": "Charcoal is created by heating wood in a low-oxygen environment, removing water and volatile compounds. Traditional methods involved building a conical pile of wood, leaving openings for air, and carefully controlling the combustion process to maximize charcoal yield. Modern methods utilize retorts for higher efficiency.",
+        "unlocks": []
+    },
+    {
+        "node_id": "bone_tools",
+        "title": "Bone tools",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "jungle",
+            "universal"
+        ],
+        "prerequisites": [
+            "foraging",
+            "knapping"
+        ],
+        "materials": [
+            "bone"
+        ],
+        "action_steps": [
+            "Shape bone fragments using abrasive stone to create points, needles, and hooks."
+        ],
+        "theory": "Bone tools represent an early and widespread technology, utilized by numerous hunter-gatherer societies across the globe. They offer a durable alternative to stone tools and can be crafted into a surprisingly diverse range of implements, from practical tools like awls and needles to decorative items.",
+        "unlocks": [
+            "bow_and_arrow",
+            "fishing"
+        ]
+    },
+    {
+        "node_id": "trapping",
+        "title": "Trapping",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "tundra",
+            "jungle",
+            "urban"
+        ],
+        "prerequisites": [
+            "foraging",
+            "animal_tracking"
+        ],
+        "materials": [
+            "wood",
+            "rope",
+            "stone",
+            "sinew"
+        ],
+        "action_steps": [
+            "Learn basic trap designs.",
+            "Construct simple snare traps.",
+            "Set traps in suitable locations.",
+            "Regularly check traps."
+        ],
+        "theory": "Trapping involves using devices to capture animals remotely. It's a crucial skill for obtaining food and resources, but requires careful planning and ethical considerations to minimize harm to wildlife.",
+        "unlocks": []
+    },
+    {
+        "node_id": "bow_and_arrow",
+        "title": "Bow and arrow",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "tundra",
+            "jungle",
+            "universal"
+        ],
+        "prerequisites": [
+            "woodworking",
+            "foraging",
+            "cordage"
+        ],
+        "materials": [
+            "wood",
+            "sinew",
+            "bone",
+            "feather"
+        ],
+        "action_steps": [
+            "Construct a bow frame from flexible wood.",
+            "Create bowstring using cordage.",
+            "Fashion arrow shafts from wood.",
+            "Create arrowheads from bone or stone."
+        ],
+        "theory": "The bow and arrow utilizes stored elastic energy to launch projectiles over distances. A drawn bow stores energy in its limbs, which is then released to propel the arrow forward. Accurate aiming and a strong draw are key to effective use.",
+        "unlocks": [
+            "meat_smoking",
+            "animal_tracking"
+        ]
+    },
+    {
+        "node_id": "fishing",
+        "title": "Fishing",
+        "category": "survival",
+        "biomes": [
+            "universal",
+            "forest",
+            "jungle",
+            "tundra",
+            "urban"
+        ],
+        "prerequisites": [],
+        "materials": [
+            "fishing_rod",
+            "fishing_line",
+            "hooks",
+            "bait"
+        ],
+        "action_steps": [
+            "Select a suitable body of water.",
+            "Attach a fishing line and hook to the fishing rod.",
+            "Cast the line into the water.",
+            "Wait for a bite and reel in the fish."
+        ],
+        "theory": "Fishing is a method of acquiring food and resources by using tools and techniques to catch aquatic animals, primarily fish. It relies on understanding fish behavior, selecting appropriate equipment, and employing various fishing methods to increase the chances of a successful catch.",
+        "unlocks": [
+            "campfire_cooking",
+            "meat_smoking",
+            "bone_tools"
+        ]
+    },
+    {
+        "node_id": "campfire_cooking",
+        "title": "Campfire cooking",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "tundra",
+            "jungle",
+            "universal"
+        ],
+        "prerequisites": [],
+        "materials": [
+            "wood"
+        ],
+        "action_steps": [
+            "Gather wood to build a campfire."
+        ],
+        "theory": "Campfire cooking is the most traditional method of outdoor cooking, utilizing direct heat from a fire to prepare food. It\u2019s a fundamental skill for survival and recreational outdoor activities.",
+        "unlocks": []
+    },
+    {
+        "node_id": "animal_tracking",
+        "title": "Animal tracking",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "jungle",
+            "urban",
+            "desert",
+            "tundra"
+        ],
+        "prerequisites": [
+            "foraging",
+            "woodworking"
+        ],
+        "materials": [
+            "sticks",
+            "rocks",
+            "clay"
+        ],
+        "action_steps": [
+            "Observe animal tracks and signs.",
+            "Analyze animal behavior and habitat cues.",
+            "Recreate animal movements based on tracks and signs.",
+            "Predict quarry location and follow spoor."
+        ],
+        "theory": "Animal tracking is the science and art of understanding animal movements and behavior by interpreting tracks, scat, and other signs. It involves observation, analysis, and prediction to locate animals, often used in hunting, conservation, and research.",
+        "unlocks": [
+            "trapping",
+            "bow_and_arrow"
+        ]
+    },
+    {
+        "node_id": "herbal_medicine",
+        "title": "Herbal medicine",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "jungle",
+            "universal"
+        ],
+        "prerequisites": [
+            "foraging"
+        ],
+        "materials": [
+            "various medicinal plants"
+        ],
+        "action_steps": [
+            "Identify local medicinal plants.",
+            "Collect plant materials according to established knowledge."
+        ],
+        "theory": "Herbal medicine utilizes the bioactive compounds found within plants to treat ailments. Understanding local flora and traditional uses is key to effective application. Note that scientific evidence is limited and safety standards are generally absent.",
+        "unlocks": []
+    },
+    {
+        "node_id": "adobe_brick",
+        "title": "Adobe Brick",
+        "category": "survival",
+        "biomes": [
+            "urban",
+            "forest",
+            "desert",
+            "jungle"
+        ],
+        "prerequisites": [
+            "clay_gathering",
+            "basketry",
+            "water_filter"
+        ],
+        "materials": [
+            "clay",
+            "sand",
+            "straw",
+            "water"
+        ],
+        "action_steps": [
+            "Gather clay, sand, and straw.",
+            "Mix clay, sand, straw, and water to form a pliable mud.",
+            "Mould the mud into brick shapes.",
+            "Allow bricks to dry in the sun (air-dry)."
+        ],
+        "theory": "Adobe bricks are created by combining readily available natural materials \u2013 clay, sand, and straw \u2013 and allowing them to dry naturally in the sun. This process creates durable building blocks suitable for warm climates where firing bricks is impractical or unavailable. The binding effect of the straw and the porous nature of the dried clay provide strength and stability.",
+        "unlocks": []
+    },
+    {
+        "node_id": "stone_masonry",
+        "title": "Stone masonry",
+        "category": "survival",
+        "biomes": [
+            "universal"
+        ],
+        "prerequisites": [
+            "foraging",
+            "stone_axe",
+            "shelter_building"
+        ],
+        "materials": [
+            "stone",
+            "mortar"
+        ],
+        "action_steps": [
+            "Extract stone from a quarry.",
+            "Cut stone blocks using saws or chisels.",
+            "Shape stone blocks using hand and power tools according to templates.",
+            "Lay stone blocks with mortar to create walls and structures."
+        ],
+        "theory": "Stone masonry is the ancient craft of shaping and arranging stone, often with mortar, to build structures like walls, temples, and monuments. It involves quarrying, cutting, shaping, and laying stone blocks, utilizing specialized techniques and tools based on the intended structure's design.",
+        "unlocks": [
+            "adobe_brick",
+            "wattle_and_daub"
+        ]
+    },
+    {
+        "node_id": "copper_smelting",
+        "title": "Copper smelting",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "urban"
+        ],
+        "prerequisites": [
+            "fire_making",
+            "charcoal_making"
+        ],
+        "materials": [
+            "copper_ore",
+            "charcoal"
+        ],
+        "action_steps": [
+            "Build a blast furnace.",
+            "Load the blast furnace with copper ore and charcoal.",
+            "Introduce air to the furnace, creating a flame and carbon monoxide.",
+            "Maintain the heat and airflow to facilitate the reduction of copper oxide to metallic copper."
+        ],
+        "theory": "Copper smelting involves applying heat and a reducing agent (carbon monoxide) to copper ore to remove oxygen and extract the pure metal. This process is often aided by a blast furnace to increase efficiency and involves roasting sulfide ores beforehand to convert them to oxides.",
+        "unlocks": []
+    },
+    {
+        "node_id": "composting",
+        "title": "Composting",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "urban",
+            "universal"
+        ],
+        "prerequisites": [
+            "fire_making",
+            "foraging"
+        ],
+        "materials": [
+            "leaves",
+            "grass",
+            "food scraps",
+            "stalks",
+            "paper",
+            "wood chips"
+        ],
+        "action_steps": [
+            "Gather green waste (leaves, grass, food scraps).",
+            "Gather brown waste (stalks, paper, wood chips).",
+            "Maintain a pile of mixed green and brown waste.",
+            "Turn the pile regularly to aerate."
+        ],
+        "theory": "Composting is an aerobic process of decomposing organic waste into a nutrient-rich soil amendment. It relies on a balance of carbon and nitrogen sources, moisture, and aeration to facilitate microbial decomposition and the creation of humus, improving soil fertility.",
+        "unlocks": [
+            "agriculture_basics"
+        ]
+    }
+]
