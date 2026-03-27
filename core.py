@@ -23,7 +23,47 @@ MASTER_TOPICS = [
     "Bone tools", "Trapping", "Bow and arrow", "Fishing", 
     "Campfire cooking", "Meat smoking", "Animal tracking", 
     "Herbal medicine", "Adobe brick", "Stone masonry", 
-    "Copper smelting", "Agriculture basics", "Composting"
+    "Copper smelting", "Agriculture basics", "Composting",
+     # --- WATER & FIRE MASTER ---
+    "Solar still",          # Extracting water from dirt/sun
+    "Char cloth",           # Catching sparks for fire
+    "Tinder fungus",        # Carrying fire long distances (Amadou)
+    "Fire piston",          # Igniting tinder using air compression
+    "Hand drill",           # Friction fire (no bow needed)
+    "Dakota fire hole",     # Stealth/windproof underground fire
+    
+    # --- WILDERNESS SHELTER ---
+    "Debris hut",           # Body-heat insulated natural shelter
+    "Lean-to",              # Quick wind-break shelter
+    "Quinzhee",             # Snow shelter (for cold biome)
+    "Earth lodge",          # Semi-subterranean long-term shelter
+    "Lashing (ropework)",   # Tying logs together for structures
+    
+    # --- PRIMITIVE HUNTING & GATHERING ---
+    "Deadfall trap",        # Crushing trap (Figure-four)
+    "Snare trap",           # Catching small game
+    "Fish weir",            # Primitive rock/wood fish trap in rivers
+    "Atlatl",               # Spear thrower (massive hunting upgrade)
+    "Sling (weapon)",       # Throwing rocks with lethal force
+    "Bolas",                # Throwing weapon to entangle legs
+    "Pemmican",             # Ultimate survival superfood (meat/fat)
+    "Trotline",             # Passive fishing with multiple hooks
+
+    # --- BUSHCRAFT CRAFTING & GEAR ---
+    "Pitch (resin)",        # Making pine pitch glue (primitive epoxy)
+    "Sinew",                # Making primitive thread from animal tendons
+    "Bone awl",             # Primitive needle for sewing leather
+    "Dugout canoe",         # Burning/scraping a log to make a boat
+    "Snowshoe",             # Moving in deep winter
+    "Birch bark container", # Crafting waterproof pots
+    "Soap from ashes",      # Making lye/soap from campfires
+
+    # --- OFF-GRID SETTLEMENT (Tier 2) ---
+    "Root cellar",          # Underground refrigeration
+    "Coppicing",            # Harvesting wood without killing the tree
+    "Raised-bed gardening", # Early agriculture technique
+    "Adobe",                # Mud-brick making
+    "Cob (material)"        # Building walls with mud and straw
 ]
 
 # Generate valid node IDs (lowercase with underscores)
@@ -249,224 +289,5 @@ if __name__ == "__main__":
             print(f"  ⚠️ AI failed to structure {topic}.")
 
     print(f"\n🎉 Finished. Database size: {len(results)}")
-# import requests
-# import json
-# import time
-# import os
-# import sys
-# import re
-# # Ensure stdout uses UTF-8 so emoji prints don't raise on Windows consoles
-# try:
-#     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-# except Exception:
-#     pass
 
-# # ==========================================
-# # 1. DATA MODELS & VALIDATION
-# # ==========================================
-# REQUIRED_KEYS = [
-#     "node_id", "title", "category", "biomes",
-#     "prerequisites", "materials", "action_steps",
-#     "theory", "unlocks"
-# ]
-
-# def validate_and_clean_node(node, topic="Unknown"):
-#     if not isinstance(node, dict): 
-#         print(f"    ⚠️ Validation failed for {topic}: Output is not a dictionary.")
-#         return None
-        
-#     for key in REQUIRED_KEYS:
-#         if key not in node: 
-#             print(f"    ⚠️ Validation failed for {topic}: Missing required key '{key}'")
-#             # Auto-fix missing list keys to keep the pipeline moving
-#             if key in ["biomes", "prerequisites", "materials", "action_steps", "unlocks"]:
-#                 print(f"    🔧 Auto-fixing: Added empty list for '{key}'")
-#                 node[key] = []
-#             elif key == "theory":
-#                 node[key] = ""
-#             else:
-#                 return None
-                
-#     try:
-#         node["node_id"] = str(node.get("node_id", topic)).lower().replace(" ", "_")
-#         node["category"] = str(node.get("category", "survival")).lower()
-#         if isinstance(node["action_steps"], list):
-#             node["action_steps"] = [list(s.values())[0] if isinstance(s, dict) else str(s) for s in node["action_steps"]]
-#         return node
-#     except Exception as e:
-#         print(f"    ⚠️ Validation error during cleaning {topic}: {e}")
-#         return None
-
-# # ==========================================
-# # 2. INCREMENTAL WIKIPEDIA FETCHING
-# # ==========================================
-# def fetch_incremental_vault(topic_list, vault_file="wikipedia_vault.json"):
-#     vault = {}
-#     if os.path.exists(vault_file):
-#         with open(vault_file, "r") as f: vault = json.load(f)
-    
-#     headers = {"User-Agent": "SkillTreeBot/1.0"}
-    
-#     for topic in topic_list:
-#         if topic in vault and len(vault[topic]) > 50:
-#             continue
-        
-#         print(f"🌍 Scraping Wikipedia: {topic}...")
-#         params = {"action": "query", "format": "json", "titles": topic, "prop": "extracts", "explaintext": True}
-#         try:
-#             response = requests.get("https://en.wikipedia.org/w/api.php", params=params, headers=headers)
-#             res_json = response.json()
-#             pages = res_json.get("query", {}).get("pages", {})
-#             page = next(iter(pages.values()))
-            
-#             if "extract" in page and len(page["extract"]) > 0:
-#                 # Clean text: remove multiple newlines and limit size
-#                 clean_text = " ".join(page["extract"].split())
-#                 vault[topic] = clean_text[:2500]
-#                 print(f"  ✅ Saved {len(vault[topic])} chars for {topic}")
-#                 with open(vault_file, "w") as f: json.dump(vault, f, indent=4)
-#             else:
-#                 print(f"  ⚠️ No content found for {topic}")
-#         except Exception as e:
-#             print(f"  ❌ Fetch Error for {topic}: {e}")
-            
-#     return vault
-
-# # ==========================================
-# # 3. AI STRUCTURING
-# # ==========================================
-
-# def generate_node_json(topic, wiki_text):
-#     print(f"🧠 AI thinking about: {topic}...")
-    
-#     json_template = {
-#         "node_id": topic.lower().replace(" ", "_"),
-#         "title": topic,
-#         "category": "survival",
-#         "biomes": [],
-#         "prerequisites": [],
-#         "materials": ["item 1", "item 2"],
-#         "action_steps": ["Step 1", "Step 2"],
-#         "theory": "Short explanation",
-#         "unlocks": []
-#     }
-    
-#     # 1. UPDATED PROMPT: Explicitly forbid arrays/lists
-#     prompt = f"""Task: Convert the text into ONE single JSON object for a survival game tech tree.
-# Topic: {topic}
-
-# RULES:
-# 1. Output ONLY ONE SINGLE JSON object {{}}. DO NOT output a list or array [].
-# 2. Summarize the entire text into this single node.
-# 3. DO NOT wrap the output in markdown (no ```json).
-# 4. You MUST include EVERY key from the template below.
-
-# TEMPLATE TO FILL OUT:
-# {json.dumps(json_template, indent=2)}
-
-# TEXT TO ANALYZE:
-# {wiki_text}"""
-
-#     model_name = os.environ.get("MODEL_NAME", "gemma3:4b")
-
-#     payload = {
-#         "model": model_name, 
-#         "prompt": prompt, 
-#         "stream": False,
-#         "format": "json" 
-#     }
-    
-#     try:
-#         resp = requests.post("http://localhost:11434/api/generate", json=payload, timeout=300)
-#     except Exception as e:
-#         print(f"  ❌ AI request error for {topic}: {e}")
-#         return None
-
-#     print(f"  ℹ️ AI status: {resp.status_code} (model={model_name})")
-#     resp_text = resp.text or ""
-#     safe_name = str(topic).lower().replace(" ", "_")
-
-#     try:
-#         debug_dir = "ai_debug"
-#         os.makedirs(debug_dir, exist_ok=True)
-#         with open(os.path.join(debug_dir, f"{safe_name}.resp.txt"), "w", encoding="utf-8") as df:
-#             df.write(resp_text)
-#     except Exception: pass
-
-#     try:
-#         res_data = resp.json()
-#     except Exception:
-#         print(f"  ⚠️ AI response not JSON for {topic}")
-#         return None
-
-#     if resp.status_code != 200:
-#         print(f"  ❌ AI server error: {resp_text}")
-#         return None
-
-#     response_field = res_data.get("response", "")
-#     ai_json = None
-
-#     if isinstance(response_field, dict):
-#         ai_json = response_field
-#     elif isinstance(response_field, str):
-#         clean_text = re.sub(r"^```json\s*", "", response_field, flags=re.MULTILINE)
-#         clean_text = re.sub(r"^```\s*", "", clean_text, flags=re.MULTILINE)
-#         clean_text = clean_text.strip()
-        
-#         try:
-#             ai_json = json.loads(clean_text)
-#         except Exception:
-#             # Safer fallback: Extract from first { to last }
-#             start = clean_text.find('{')
-#             end = clean_text.rfind('}')
-#             if start != -1 and end != -1:
-#                 try:
-#                     ai_json = json.loads(clean_text[start:end+1])
-#                 except Exception:
-#                     pass
-
-#     # 2. THE CRITICAL FIX: If AI still returns a list, just grab the first object
-#     if isinstance(ai_json, list):
-#         if len(ai_json) > 0:
-#             print(f"  ⚠️ AI returned a list of {len(ai_json)} items. Grabbing the main topic (first item).")
-#             ai_json = ai_json[0]
-#         else:
-#             ai_json = None
-
-#     if not ai_json:
-#         print(f"  ⚠️ AI produced no parseable JSON for {topic}; see ai_debug/{safe_name}.resp.txt")
-#         return None
-
-#     return validate_and_clean_node(ai_json, topic)
-# # ==========================================
-# # 4. EXECUTION PIPELINE
-# # ==========================================
-# if __name__ == "__main__":
-#     topics = ["Bow drill", "Water filter", "Knapping", "Wattle and daub"]
-#     db_file = "genesis_nodes.json"
-    
-#     results = []
-#     if os.path.exists(db_file):
-#         with open(db_file, "r") as f:
-#             try:
-#                 raw_data = json.load(f)
-#                 results = [n for n in raw_data if isinstance(n, dict) and "node_id" in n]
-#             except: pass
-
-#     processed_titles = {n["title"].lower() for n in results if "title" in n}
-#     data_vault = fetch_incremental_vault(topics)
-
-#     for topic, text in data_vault.items():
-#         if topic.lower() in processed_titles: continue
-            
-#         node = generate_node_json(topic, text)
-#         if node:
-#             results.append(node)
-#             processed_titles.add(node["title"].lower())
-#             with open(db_file, "w") as f: json.dump(results, f, indent=4)
-#             print(f"  💾 Success: {node['title']} added to DB.")
-#         else:
-#             print(f"  ⚠️ AI failed to structure {topic}.")
-
-#     print(f"\n🎉 Finished. Database size: {len(results)}")
 

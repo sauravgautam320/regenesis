@@ -607,5 +607,751 @@
         "unlocks": [
             "agriculture_basics"
         ]
+    },
+    {
+        "node_id": "solar_still",
+        "title": "Solar Still",
+        "category": "survival",
+        "biomes": [
+            "desert",
+            "tundra",
+            "jungle",
+            "universal"
+        ],
+        "prerequisites": [],
+        "materials": [
+            "plastic film",
+            "stones",
+            "transparent glass",
+            "container"
+        ],
+        "action_steps": [
+            "Construct a pit in the ground.",
+            "Place branches vertically in the pit, extending over the edge to form a funnel.",
+            "Cover the funnel with a sheet of plastic film, anchoring it with stones or earth to create a sealed enclosure.",
+            "Place a weight in the center of the plastic film to create a funnel.",
+            "Collect the condensed water in the container."
+        ],
+        "theory": "A solar still uses the sun's heat to evaporate water from a contaminated source (such as saltwater or plant matter), and then condenses the resulting vapor back into a pure, potable water source.",
+        "unlocks": []
+    },
+    {
+        "node_id": "char_cloth",
+        "title": "Char cloth",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "tundra",
+            "urban",
+            "universal"
+        ],
+        "prerequisites": [
+            "foraging",
+            "fire_making"
+        ],
+        "materials": [
+            "linen",
+            "cotton",
+            "jute",
+            "dried moss",
+            "leaves",
+            "fungus (amadou)",
+            "raw unspun flax",
+            "small, almost airtight, rectangular tin"
+        ],
+        "action_steps": [
+            "Prepare a swatch of organic fabric (linen, cotton, etc.).",
+            "Slowly and steadily heat the fabric within a small, airtight tin over coals for an extended period.",
+            "This process, called pyrolysis, converts the fabric into charcoal.",
+            "Use flint and steel to create a spark and ignite the char cloth."
+        ],
+        "theory": "Char cloth is created through pyrolysis \u2013 heating organic fabric in the absence of oxygen \u2013 resulting in a material with a low ignition temperature, ideal for tinder. The process transforms the fabric into charcoal, a highly flammable substance that can be reliably ignited with a spark.",
+        "unlocks": []
+    },
+    {
+        "node_id": "tinder_fungus",
+        "title": "Tinder fungus",
+        "category": "survival",
+        "biomes": [
+            "forest"
+        ],
+        "prerequisites": [
+            "foraging"
+        ],
+        "materials": [
+            "tinder fungus"
+        ],
+        "action_steps": [
+            "Locate tinder fungus on hardwood trees.",
+            "Carefully remove the fungus from the tree."
+        ],
+        "theory": "The tinder fungus is a naturally occurring fungus that, when dried, produces highly flammable spores. It has been historically used as a primary tinder source due to its ability to ignite easily with a spark or ember.",
+        "unlocks": []
+    },
+    {
+        "node_id": "fire_piston",
+        "title": "Fire piston",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "tundra",
+            "desert",
+            "jungle",
+            "urban"
+        ],
+        "prerequisites": [
+            "woodworking"
+        ],
+        "materials": [
+            "wood dowel",
+            "PVC pipe",
+            "copper pipe",
+            "rubber O-rings",
+            "string",
+            "water"
+        ],
+        "action_steps": [
+            "Construct a hollow cylinder with an open end.",
+            "Create a piston with an airtight seal.",
+            "Add a cavity at the end of the piston to hold tinder.",
+            "Lubricate the piston and cylinder with water or grease for a slippery seal.",
+            "Quickly compress air within the cylinder using a handle or striking surface, causing a rapid temperature increase.",
+            "Insert tinder into the piston cavity and ignite with the compressed hot air.",
+            "Carefully withdraw the piston before oxygen depletion.",
+            "Transfer the ember to a larger tinder nest and gradually build a flame."
+        ],
+        "theory": "A fire piston utilizes rapid compression of air to raise its temperature to the autoignition point of tinder, enabling fire starting without an external ignition source.",
+        "unlocks": []
+    },
+    {
+        "node_id": "hand_drill",
+        "title": "Hand drill",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "tundra",
+            "jungle",
+            "universal"
+        ],
+        "prerequisites": [
+            "foraging",
+            "woodworking"
+        ],
+        "materials": [
+            "wood (suitable for shaft)",
+            "cordage"
+        ],
+        "action_steps": [
+            "Select a dry, seasoned piece of wood for the drill shaft.",
+            "Create a small notch at the top of the shaft.",
+            "Pass cordage through the notch, creating loops for the thumbs.",
+            "Apply downward pressure to the shaft while moving it back and forth with a rubbing motion.",
+            "Periodically lift hands to maintain rotation, or use cordage to assist."
+        ],
+        "theory": "The hand drill relies on friction generated by rapidly rotating a shaft between the hands to create heat, which eventually ignites tinder. It is a simple, manual method for fire starting.",
+        "unlocks": [
+            "fire_making",
+            "charcoal_making"
+        ]
+    },
+    {
+        "node_id": "dakota_fire_hole",
+        "title": "Dakota Fire Hole",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "tundra",
+            "prairie"
+        ],
+        "prerequisites": [],
+        "materials": [
+            "wood",
+            "dirt",
+            "twigs"
+        ],
+        "action_steps": [
+            "Dig a small, shallow hole in the ground.",
+            "Create a smaller hole for airflow.",
+            "Pack small twigs into the main hole to act as fuel.",
+            "Light the twigs on top and maintain airflow."
+        ],
+        "theory": "The Dakota fire hole is a simple, efficient fire design that utilizes a controlled airflow to ensure complete combustion, minimizing smoke and maximizing heat output. It\u2019s a tactical fire, useful in windy conditions and offering a low light signature.",
+        "unlocks": []
+    },
+    {
+        "node_id": "lean_to",
+        "title": "Lean-to",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "tundra",
+            "jungle",
+            "universal"
+        ],
+        "prerequisites": [],
+        "materials": [
+            "log"
+        ],
+        "action_steps": [
+            "Gather suitable logs."
+        ],
+        "theory": "A lean-to is a basic, simple shelter constructed by leaning rafters against a supporting wall or natural feature, providing protection from the elements. It\u2019s a quick and effective solution for temporary shelter in wilderness environments.",
+        "unlocks": []
+    },
+    {
+        "node_id": "quinzhee",
+        "title": "Quinzhee",
+        "category": "survival",
+        "biomes": [
+            "tundra",
+            "forest"
+        ],
+        "prerequisites": [],
+        "materials": [
+            "snow"
+        ],
+        "action_steps": [
+            "Pile up loose snow into a dome shape (1.5-2m high, 3-4m diameter).",
+            "Allow snow to sinter for at least 2 hours.",
+            "Push sticks (30-35cm) into the structure to guide excavation.",
+            "Excavate the interior, carving blocks and sliding them out.",
+            "Hollow out the center, creating a usable space.",
+            "Strengthen the structure by melting and refreezing the interior surface."
+        ],
+        "theory": "A quinzhee is a snow shelter constructed by piling loose snow into a dome shape and then hollowing it out, offering a relatively quick and easy solution for winter survival compared to an igloo. The sintering process and controlled melting/refreezing strengthens the walls.",
+        "unlocks": []
+    },
+    {
+        "node_id": "earth_lodge",
+        "title": "Earth lodge",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "tundra",
+            "urban"
+        ],
+        "prerequisites": [
+            "shelter_building",
+            "woodworking",
+            "fire_making",
+            "cordage"
+        ],
+        "materials": [
+            "wood",
+            "earth",
+            "timber"
+        ],
+        "action_steps": [
+            "Excavate a circular floor pit.",
+            "Construct vertical timber supports (center posts and perimeter posts).",
+            "Install horizontal beams and cross-stringers.",
+            "Add sloping posts to create the walls.",
+            "Create a smoke hole at the apex of the dome.",
+            "Cover the structure with earth and thatch."
+        ],
+        "theory": "The earth lodge is a robust, insulated shelter adapted to cold climates, utilizing a circular design and heavy timber framing to provide protection from the elements. Its thick earth walls offered significant thermal mass, crucial for managing temperature fluctuations.",
+        "unlocks": [
+            "adobe_brick",
+            "cob_(material)"
+        ]
+    },
+    {
+        "node_id": "lashing_(ropework)",
+        "title": "Lashing (ropework)",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "tundra",
+            "urban",
+            "universal"
+        ],
+        "prerequisites": [
+            "cordage",
+            "woodworking"
+        ],
+        "materials": [
+            "rope",
+            "vines",
+            "bark",
+            "wood"
+        ],
+        "action_steps": [
+            "Learn basic lashing techniques (Square, Diagonal, Shear, Round, Tripod).",
+            "Practice wrapping rope around spars and poles.",
+            "Utilize frapping turns for added security."
+        ],
+        "theory": "Lashing is a fundamental construction technique involving the binding of materials with rope to create secure and rigid connections. It\u2019s critical for building shelters, rafts, bridges, and other structures, and its understanding is key to efficient resource utilization and structural stability.",
+        "unlocks": [
+            "shelter_building",
+            "bow_and_arrow"
+        ]
+    },
+    {
+        "node_id": "deadfall_trap",
+        "title": "Deadfall trap",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "tundra",
+            "urban"
+        ],
+        "prerequisites": [
+            "foraging",
+            "woodworking",
+            "bow_drill"
+        ],
+        "materials": [
+            "wood",
+            "rock",
+            "trigger mechanism (e.g., stick, rope)"
+        ],
+        "action_steps": [
+            "Gather suitable wood for the trap's construction.",
+            "Select a suitable rock or heavy object for the falling element.",
+            "Construct a trigger mechanism that will release the falling element when activated.",
+            "Carefully position the falling element to ensure it will fall accurately on the target animal."
+        ],
+        "theory": "A deadfall trap utilizes a falling weight to capture or kill an animal. These traps are simple, require minimal materials, and can be effective in certain environments. Requires careful construction and placement for optimal performance.",
+        "unlocks": [
+            "snare_trap"
+        ]
+    },
+    {
+        "node_id": "snare_trap",
+        "title": "Snare trap",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "tundra",
+            "jungle",
+            "universal"
+        ],
+        "prerequisites": [
+            "foraging",
+            "cordage"
+        ],
+        "materials": [
+            "vines",
+            "saplings",
+            "rope"
+        ],
+        "action_steps": [
+            "Locate suitable animal trails.",
+            "Create a noose from vines or cordage.",
+            "Set the noose on a branch or pole, ensuring it will tighten when an animal passes through.",
+            "Camouflage the trap to avoid detection by the animal."
+        ],
+        "theory": "A snare trap uses a noose and trigger mechanism to capture animals. It relies on the animal stepping into the noose, which then tightens around its body, preventing escape. Regular checks are vital to ensure humane capture and avoid animal suffering.",
+        "unlocks": []
+    },
+    {
+        "node_id": "fish_weir",
+        "title": "Fish weir",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "river"
+        ],
+        "prerequisites": [
+            "shelter_building",
+            "woodworking",
+            "basketry"
+        ],
+        "materials": [
+            "wood",
+            "stone"
+        ],
+        "action_steps": [
+            "Gather sufficient wood and stones.",
+            "Construct a V-shaped structure in a river or tidal area, creating a channel and trapping area.",
+            "Reinforce the structure to withstand water flow and fish attempts to escape."
+        ],
+        "theory": "A fish weir is a simple trap built by constructing a barrier in a waterway to direct fish passage and prevent escape. It leverages the natural flow of water to concentrate fish within the trap, making them vulnerable to capture. ",
+        "unlocks": [
+            "pemmican",
+            "trotline"
+        ]
+    },
+    {
+        "node_id": "atlatl",
+        "title": "Atlatl",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "tundra",
+            "jungle"
+        ],
+        "prerequisites": [
+            "foraging",
+            "woodworking"
+        ],
+        "materials": [
+            "wood",
+            "sinew",
+            "cordage"
+        ],
+        "action_steps": [
+            "Craft a simple atlatl frame from sturdy wood.",
+            "Create a handle with a grip, using wood and sinew for reinforcement.",
+            "Fashion a cup or spur at the end of the atlatl for holding the dart.",
+            "Create a dart using a suitable shaft and create cordage to secure the point"
+        ],
+        "theory": "The atlatl is a lever-based tool that extends the throwing arm, increasing projectile velocity and range. It utilizes the user's momentum to propel a dart or javelin with significantly greater force and speed than a simple hand-thrown spear.",
+        "unlocks": []
+    },
+    {
+        "node_id": "sling_(weapon)",
+        "title": "Sling (weapon)",
+        "category": "survival",
+        "biomes": [
+            "universal"
+        ],
+        "prerequisites": [
+            "foraging",
+            "cordage"
+        ],
+        "materials": [
+            "flax",
+            "cotton"
+        ],
+        "action_steps": [
+            "Gather flax or cotton fibers.",
+            "Create cordage from the fibers.",
+            "Weave a cradle from the cordage.",
+            "Braid the cords to create the retention cords."
+        ],
+        "theory": "The sling utilizes the principles of double-pendulum kinetics to launch projectiles with considerable force and distance, relying on a carefully controlled release of tension. It\u2019s a simple, effective, and historically significant weapon and tool for hunting and self-defense.",
+        "unlocks": []
+    },
+    {
+        "node_id": "bolas",
+        "title": "Bolas",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "tundra",
+            "jungle",
+            "universal"
+        ],
+        "prerequisites": [
+            "cordage"
+        ],
+        "materials": [
+            "leather",
+            "wood",
+            "stone",
+            "sinew"
+        ],
+        "action_steps": [
+            "Create cords of leather.",
+            "Craft weights from wood or stone.",
+            "Attach the weights to the cords using knots."
+        ],
+        "theory": "Bolas are a throwing weapon comprised of weighted cords used to entangle the legs of moving animals, creating a tripping hazard and immobilization.",
+        "unlocks": []
+    },
+    {
+        "node_id": "pemmican",
+        "title": "Pemmican",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "tundra",
+            "urban"
+        ],
+        "prerequisites": [
+            "meat_smoking",
+            "animal_tracking"
+        ],
+        "materials": [
+            "bison",
+            "deer",
+            "elk",
+            "moose",
+            "fish",
+            "salmon",
+            "duck",
+            "tallow",
+            "berries",
+            "cranberries",
+            "saskatoon berries",
+            "blueberries",
+            "cherries",
+            "chokeberries",
+            "currants",
+            "cornmeal",
+            "sugar"
+        ],
+        "action_steps": [
+            "Cut meat into thin slices.",
+            "Dry meat over a slow fire or in the sun until brittle.",
+            "Pound dried meat into powder using flails or stones.",
+            "Render tallow from animal fat.",
+            "Mix powdered meat, tallow, and dried fruit (optional) in a 1:1 ratio by weight.",
+            "Pack mixture into rawhide bags for storage."
+        ],
+        "theory": "Pemmican is a calorie-rich food made from dried meat, rendered animal fat, and often dried fruit. It\u2019s a highly efficient and long-lasting food source, historically crucial for survival in harsh climates and demanding expeditions, and remains a valuable survival food today.",
+        "unlocks": []
+    },
+    {
+        "node_id": "trotline",
+        "title": "Trotline",
+        "category": "survival",
+        "biomes": [
+            "river",
+            "stream",
+            "lake"
+        ],
+        "prerequisites": [
+            "fishing",
+            "lashing_(ropework)",
+            "cordage"
+        ],
+        "materials": [
+            "fishing line",
+            "hooks",
+            "swivels",
+            "clamps",
+            "rope"
+        ],
+        "action_steps": [
+            "Measure the span of the waterway.",
+            "Attach clamps to the main line with swivels between them.",
+            "Attach fishing line to the swivels.",
+            "Tie hooks to the fishing line."
+        ],
+        "theory": "A trotline is a stationary fishing method utilizing a heavy line with baited branch lines (snoods) suspended along its length. It's typically anchored at both ends to create a trap for crabs or fish, relying on the bait to attract prey.",
+        "unlocks": [
+            "pemmican"
+        ]
+    },
+    {
+        "node_id": "pitch_(resin)",
+        "title": "Pitch (resin)",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "jungle"
+        ],
+        "prerequisites": [],
+        "materials": [
+            "coniferous resin"
+        ],
+        "action_steps": [
+            "Collect coniferous resin (e.g., pine tar)."
+        ],
+        "theory": "Pitch is a natural, viscoelastic resin derived from conifer trees, possessing adhesive and waterproofing properties. It's characterized by its slow flow and ability to bond surfaces, making it suitable for sealing and waterproofing applications.",
+        "unlocks": []
+    },
+    {
+        "node_id": "sinew",
+        "title": "Sinew",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "tundra",
+            "urban"
+        ],
+        "prerequisites": [],
+        "materials": [
+            "animal tendon"
+        ],
+        "action_steps": [
+            "Harvest tendon from slain animal.",
+            "Clean and dry harvested tendon."
+        ],
+        "theory": "Sinew is a highly resilient material derived from animal tendons, offering exceptional tensile strength and flexibility. It can be crafted into cordage, bindings, and reinforced components for tools and equipment, providing a crucial advantage in survival situations. Its strength-to-weight ratio is significantly higher than many other natural fibers.",
+        "unlocks": []
+    },
+    {
+        "node_id": "dugout_canoe",
+        "title": "Dugout canoe",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "jungle",
+            "universal"
+        ],
+        "prerequisites": [
+            "woodworking",
+            "fire_making"
+        ],
+        "materials": [
+            "tree"
+        ],
+        "action_steps": [
+            "Select a suitable log of appropriate dimensions.",
+            "Remove the bark from the exterior of the log.",
+            "Hollow out the log using controlled fires and an adze, or by creating notches and splitting the wood.",
+            "Dress and smooth the interior of the canoe with a knife or adze."
+        ],
+        "theory": "Dugout canoes are ancient boats constructed by hollowing out a single tree trunk. They are remarkably durable and effective for travel on water, relying on careful shaping for buoyancy and speed.",
+        "unlocks": []
+    },
+    {
+        "node_id": "snowshoe",
+        "title": "Snowshoe",
+        "category": "survival",
+        "biomes": [
+            "tundra",
+            "forest"
+        ],
+        "prerequisites": [
+            "woodworking"
+        ],
+        "materials": [
+            "wood",
+            "rawhide"
+        ],
+        "action_steps": [
+            "Cut and shape the hardwood frame.",
+            "Weave rawhide strips into a latticework.",
+            "Attach bindings to connect the frame to footwear."
+        ],
+        "theory": "Snowshoes distribute a person's weight across a larger surface area, preventing sinking in snow. Traditional designs utilized a wooden frame and rawhide, while modern versions utilize lightweight materials for improved performance.",
+        "unlocks": []
+    },
+    {
+        "node_id": "root_cellar",
+        "title": "Root cellar",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "urban",
+            "universal"
+        ],
+        "prerequisites": [
+            "shelter_building",
+            "wattle_and_daub",
+            "clay_gathering",
+            "cob_(material)"
+        ],
+        "materials": [
+            "wood",
+            "clay",
+            "cob",
+            "straw",
+            "pitch_(resin)"
+        ],
+        "action_steps": [
+            "Excavate a small, insulated space underground.",
+            "Construct walls using wattle and daub or cob.",
+            "Line the walls with clay for insulation and moisture control.",
+            "Create a raised platform for storing food to prevent contact with the cold earth.",
+            "Ventilate the cellar to control humidity."
+        ],
+        "theory": "A root cellar utilizes the earth\u2019s natural insulation to maintain a cool, humid environment, extending the shelf life of perishable foods like root vegetables, fruits, and beverages by regulating temperature and humidity. This is achieved by creating a stable, dark, and relatively constant environment, capitalizing on the reduced metabolic activity of stored produce.",
+        "unlocks": [
+            "agriculture_basics",
+            "composting"
+        ]
+    },
+    {
+        "node_id": "coppicing",
+        "title": "Coppicing",
+        "category": "survival",
+        "biomes": [
+            "forest"
+        ],
+        "prerequisites": [
+            "fire_making",
+            "woodworking"
+        ],
+        "materials": [
+            "birch"
+        ],
+        "action_steps": [
+            "Cut down a tree to a stump.",
+            "Observe the new growth (stools) emerging from the stump.",
+            "Repeat the cutting process on the stools after a predetermined cycle (e.g., 3-5 years for birch)."
+        ],
+        "theory": "Coppicing is a sustainable woodland management technique where trees are cut back to stubs, stimulating regrowth and allowing for repeated harvests. It\u2019s a cyclic process that maintains a diverse range of tree ages and promotes biodiversity, particularly beneficial in woodland environments.",
+        "unlocks": [
+            "pemmican",
+            "meat_smoking",
+            "campfire_cooking"
+        ]
+    },
+    {
+        "node_id": "raised_bed_gardening",
+        "title": "Raised-bed gardening",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "urban",
+            "universal"
+        ],
+        "prerequisites": [
+            "agriculture_basics",
+            "composting",
+            "wattle_and_daub"
+        ],
+        "materials": [
+            "lumber",
+            "concrete",
+            "clay",
+            "wood",
+            "stone"
+        ],
+        "action_steps": [
+            "Gather materials to construct the raised bed.",
+            "Build a raised bed structure using lumber, concrete blocks, or stone.",
+            "Fill the raised bed with enriched soil, including compost."
+        ],
+        "theory": "Raised-bed gardening involves creating elevated garden beds to improve soil conditions, control weeds, conserve moisture, and extend the growing season. It\u2019s a highly productive gardening method suitable for various climates and accessibility needs.",
+        "unlocks": [
+            "adobe",
+            "cob_(material)"
+        ]
+    },
+    {
+        "node_id": "adobe",
+        "title": "Adobe Brick",
+        "category": "shelter_building",
+        "biomes": [
+            "desert",
+            "tundra",
+            "urban",
+            "universal"
+        ],
+        "prerequisites": [],
+        "materials": [
+            "loam",
+            "organic materials"
+        ],
+        "action_steps": [
+            "Mix loam and organic materials to create a mud mixture.",
+            "Form the mud into rectangular bricks.",
+            "Allow the bricks to air dry."
+        ],
+        "theory": "Adobe bricks are created by combining soil and organic matter, forming them into bricks that dry naturally in the sun. This provides a durable and thermally efficient building material, particularly suited to arid climates.",
+        "unlocks": []
+    },
+    {
+        "node_id": "cob_(material)",
+        "title": "Cob (material)",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "tundra",
+            "urban",
+            "universal"
+        ],
+        "prerequisites": [],
+        "materials": [
+            "subsoil",
+            "straw",
+            "sand",
+            "water",
+            "lime"
+        ],
+        "action_steps": [
+            "Gather subsoil",
+            "Collect straw",
+            "Mix subsoil, straw, sand, and water",
+            "Apply mixture to stone foundation using trodding"
+        ],
+        "theory": "Cob is a durable, fire-resistant building material created by combining subsoil, straw, and water. It's labor-intensive but offers excellent thermal mass and is suitable for various climates and architectural styles. Historically used across the globe, from Wales to Afghanistan, it's a sustainable option for constructing shelters.",
+        "unlocks": []
     }
 ]
