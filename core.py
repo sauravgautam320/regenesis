@@ -64,6 +64,53 @@ MASTER_TOPICS = [
     "Raised-bed gardening", # Early agriculture technique
     "Adobe",                # Mud-brick making
     "Cob (material)"        # Building walls with mud and straw
+
+     # --- ADVANCED FIRE & LIGHT ---
+    "Swedish torch",             # Long-lasting, self-feeding camp cooking fire
+    "Earth oven",                # Cooking large game underground with hot rocks
+    "Torch",                     # Portable fire/light using pitch and wood
+    "Oil lamp",                  # Animal fat/oil burned in a clay bowl/seashell
+    
+    # --- PRIMITIVE TOOLS & WEAPONS ---
+    "Hand axe",                  # The ultimate paleolithic multi-tool
+    "Adze",                      # Crucial tool for hollowing out dugout canoes
+    "Celt (tool)",               # Polished stone axe (massive upgrade from knapped)
+    "Blowgun",                   # Silent hunting tool for small game/birds
+    "Boomerang",                 # Non-returning throwing stick for hunting
+    "Sickle",                    # Essential tool for harvesting grains/grasses
+    
+    # --- FOOD PREP & PRESERVATION ---
+    "Jerky",                     # Drying meat without smoke
+    "Curing (food preservation)",# Using salt/ash to preserve food
+    "Mushroom hunting",          # Foraging specifically for fungi
+    "Spearfishing",              # Active water hunting
+    "Fish trap",                 # Woven basket traps (different from fish weir)
+    
+    # --- PRIMITIVE TEXTILES & CRAFTING ---
+    "Bast fibre",                # Harvesting inner tree bark for heavy-duty cordage
+    "Spindle whorl",             # Weighted stick to spin plant fibers into yarn
+    "Nålebinding",               # Primitive knotless knitting (pre-dates knitting)
+    "Gourd",                     # Growing and drying gourds for canteens/bowls
+    
+    # --- WILDERNESS TRAVEL & NAVIGATION ---
+    "Travois",                   # A-frame drag sled for moving heavy loads (wood/meat)
+    "Snow goggles",              # Slotted bone/wood to prevent snow blindness
+    "Celestial navigation",      # Finding North/South using the stars
+    "Punt (boat)",               # Flat-bottomed boat pushed with a pole
+    
+    # --- EARLY SETTLEMENT & DEFENSE (Tier 2) ---
+    "Rammed earth",              # Compacting dirt to make concrete-hard walls
+    "Dry stone",                 # Building rock walls/structures WITHOUT mortar
+    "Palisade",                  # Defensive wooden log wall around a camp
+    "Pit firing",                # Baking clay pots in a hole in the ground
+    "Guano",                     # Gathering bat/bird droppings (Ultimate fertilizer/saltpeter)
+    
+    # --- EARLY METALLURGY & CHEMISTRY (Tier 3) ---
+    "Native copper",             # Finding un-oxidized copper nuggets in nature
+    "Meteoric iron",             # The only iron you can forge without smelting
+    "Smelting",                  # Extracting metal from rock using extreme heat
+    "Crucible",                  # A clay cup that can withstand melting metal
+    "Bloomery"                   # Primitive clay furnace to make iron
 ]
 
 # Generate valid node IDs (lowercase with underscores)

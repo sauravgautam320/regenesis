@@ -1353,5 +1353,911 @@
         ],
         "theory": "Cob is a durable, fire-resistant building material created by combining subsoil, straw, and water. It's labor-intensive but offers excellent thermal mass and is suitable for various climates and architectural styles. Historically used across the globe, from Wales to Afghanistan, it's a sustainable option for constructing shelters.",
         "unlocks": []
+    },
+    {
+        "node_id": "adobe",
+        "title": "Adobe Brick",
+        "category": "shelter_building",
+        "biomes": [
+            "desert",
+            "tundra",
+            "urban",
+            "forest",
+            "universal"
+        ],
+        "prerequisites": [
+            "clay_gathering",
+            "adobe_brick"
+        ],
+        "materials": [
+            "loam",
+            "organic materials",
+            "water"
+        ],
+        "action_steps": [
+            "Gather loam and organic materials.",
+            "Mix with water to create a workable mud consistency.",
+            "Form the mud into rectangular prisms.",
+            "Allow the bricks to air dry."
+        ],
+        "theory": "Adobe bricks are created by combining clay-rich soil with organic materials like straw or manure and water. The mixture is shaped into bricks and left to dry in the sun, resulting in a durable building material with high thermal mass.  It's a simple, yet effective, technique for constructing buildings in arid climates.",
+        "unlocks": []
+    },
+    {
+        "node_id": "earth_oven",
+        "title": "Earth oven",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "jungle",
+            "urban",
+            "universal"
+        ],
+        "prerequisites": [
+            "fire_making",
+            "clay_gathering"
+        ],
+        "materials": [
+            "clay",
+            "earth",
+            "rocks",
+            "green vegetation",
+            "wood"
+        ],
+        "action_steps": [
+            "Build a pit in the ground.",
+            "Heat rocks in the pit using a fire.",
+            "Cover the pit with green vegetation and food.",
+            "Cover the vegetation with earth to trap heat and moisture."
+        ],
+        "theory": "An earth oven utilizes the earth's thermal mass to cook food, trapping heat and moisture for slow baking, steaming, or roasting. It is a remarkably simple and ancient cooking method that requires minimal equipment and is suitable for large quantities of food.",
+        "unlocks": []
+    },
+    {
+        "node_id": "torch",
+        "title": "Torch",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "urban",
+            "universal"
+        ],
+        "prerequisites": [],
+        "materials": [
+            "wood",
+            "hessian",
+            "wax",
+            "kerosene"
+        ],
+        "action_steps": [
+            "Gather wooden stave.",
+            "Soak hessian in wax.",
+            "Wrap waxed hessian around the wooden stave.",
+            "Attach cardboard collar."
+        ],
+        "theory": "A torch is a simple but effective light source and fire-starting tool constructed from a wooden handle and a combustible material wrapped in wax, often used for ceremonial purposes or illumination.",
+        "unlocks": []
+    },
+    {
+        "node_id": "oil_lamp",
+        "title": "Oil Lamp",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "urban",
+            "universal"
+        ],
+        "prerequisites": [],
+        "materials": [
+            "clay",
+            "pitch_(resin)"
+        ],
+        "action_steps": [
+            "Gather clay from a suitable source.",
+            "Shape the clay into a lamp body, including a pouring hole, wick hole, and optional handle.",
+            "Apply a waterproof sealant using pitch (resin)."
+        ],
+        "theory": "An oil lamp is a simple, reliable light source utilizing a wick submerged in oil. The wick draws the oil upwards through capillary action, where it is then ignited. It is a low-tech alternative to candles, offering sustained illumination.",
+        "unlocks": []
+    },
+    {
+        "node_id": "hand_axe",
+        "title": "Hand axe",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "tundra",
+            "urban"
+        ],
+        "prerequisites": [
+            "foraging",
+            "knapping"
+        ],
+        "materials": [
+            "flint",
+            "chert"
+        ],
+        "action_steps": [
+            "Find suitable stone (flint or chert).",
+            "Reduce the stone using a hammerstone.",
+            "Shape the stone into an almond-shaped hand axe using knapping techniques."
+        ],
+        "theory": "A durable cutting tool crafted from stone, essential for basic tasks like butchering, woodworking, and defense. Its symmetrical shape and robust design made it a reliable tool for early humans.",
+        "unlocks": []
+    },
+    {
+        "node_id": "adze",
+        "title": "Adze",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "urban",
+            "universal"
+        ],
+        "prerequisites": [
+            "woodworking"
+        ],
+        "materials": [
+            "wood",
+            "metal (iron, copper, native)"
+        ],
+        "action_steps": [
+            "Shape a piece of wood into an adze head.",
+            "Attach the adze head to a handle (wood, bone, or metal)."
+        ],
+        "theory": "An adze is a tool with a perpendicular blade used for smoothing or carving wood, similar to an axe but more suited to shaping curves. It\u2019s versatile, historically used in agriculture, construction, and art, and has been adapted in various cultures and materials.",
+        "unlocks": []
+    },
+    {
+        "node_id": "celt_(tool)",
+        "title": "Celt (tool)",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "tundra",
+            "urban"
+        ],
+        "prerequisites": [],
+        "materials": [
+            "stone",
+            "bronze"
+        ],
+        "action_steps": [
+            "Craft a celt from stone or bronze."
+        ],
+        "theory": "A celt is a type of stone or bronze tool, often resembling an adze, used for woodworking tasks like felling trees and shaping wood. Its origins are rooted in misinterpretations of biblical text and subsequent adoption by antiquarians.",
+        "unlocks": []
+    },
+    {
+        "node_id": "blowgun",
+        "title": "Blowgun",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "jungle",
+            "urban"
+        ],
+        "prerequisites": [
+            "foraging",
+            "woodworking",
+            "cordage"
+        ],
+        "materials": [
+            "river cane",
+            "clay",
+            "seeds",
+            "sinew",
+            "curare"
+        ],
+        "action_steps": [
+            "Craft a blowgun from river cane using woodworking and cordage.",
+            "Create projectile darts from clay, shaping and burnishing them.",
+            "Prepare projectiles by dipping darts in curare (if available).",
+            "Practice breath control and aiming techniques."
+        ],
+        "theory": "A blowgun is a simple ranged weapon that utilizes the force of exhalation to propel projectiles. It's a valuable tool for hunting small game, pest control, and recreational shooting, with variations in design and projectile materials depending on the culture and environment.",
+        "unlocks": [
+            "atlatl",
+            "sling_(weapon)",
+            "bow_and_arrow"
+        ]
+    },
+    {
+        "node_id": "boomerang",
+        "title": "Boomerang",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "jungle",
+            "universal"
+        ],
+        "prerequisites": [
+            "woodworking",
+            "cordage"
+        ],
+        "materials": [
+            "wood",
+            "sinew"
+        ],
+        "action_steps": [
+            "Shape a wooden frame with airfoil sections.",
+            "Secure the airfoil sections with sinew lashings."
+        ],
+        "theory": "A boomerang is a thrown tool designed to return to the thrower due to its aerodynamic shape. It utilizes rotation to create lift, allowing it to travel a significant distance and eventually curve back.",
+        "unlocks": []
+    },
+    {
+        "node_id": "sickle",
+        "title": "Sickle",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "tundra",
+            "universal"
+        ],
+        "prerequisites": [
+            "foraging",
+            "woodworking"
+        ],
+        "materials": [
+            "flint",
+            "wood"
+        ],
+        "action_steps": [
+            "Craft a wooden handle.",
+            "Shape a flint blade with a jagged edge."
+        ],
+        "theory": "The sickle is an ancient harvesting tool, initially made of flint and wood, crucial for the early development of agriculture by enabling the efficient collection of grain crops. Its design has evolved over millennia, with variations in blade shape and attachment methods.",
+        "unlocks": []
+    },
+    {
+        "node_id": "jerky",
+        "title": "Jerky",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "tundra",
+            "desert",
+            "jungle",
+            "urban",
+            "universal"
+        ],
+        "prerequisites": [
+            "meat_smoking",
+            "animal_tracking"
+        ],
+        "materials": [
+            "beef",
+            "pork",
+            "goat",
+            "mutton",
+            "lamb",
+            "guanaco",
+            "deer",
+            "kudu",
+            "springbok",
+            "kangaroo",
+            "bison",
+            "llama",
+            "turkey",
+            "ostrich",
+            "calamari",
+            "salmon",
+            "chicken",
+            "duck",
+            "goose",
+            "shrimps",
+            "oxen",
+            "squids",
+            "octopuses",
+            "alligator",
+            "pigeon",
+            "crocodile",
+            "tuna",
+            "emu",
+            "horse",
+            "camel",
+            "lion",
+            "bear",
+            "snake",
+            "earthworm",
+            "salt",
+            "black pepper",
+            "garlic",
+            "soy sauce",
+            "Worcestershire sauce",
+            "sugar",
+            "teriyaki",
+            "barbecue spice",
+            "vegetable oil"
+        ],
+        "action_steps": [
+            "Trim excess fat from the meat.",
+            "Slice the meat into thin strips.",
+            "Marinate the meat strips with desired seasonings (salt, pepper, garlic, soy sauce, etc.).",
+            "Arrange the marinated strips on racks or trays.",
+            "Dry the meat strips using low heat (e.g., sun drying, a low-temperature drying oven) until the desired moisture content is reached.",
+            "Monitor the drying process to prevent overcooking."
+        ],
+        "theory": "Jerky is a preserved meat product created by dehydrating lean meat strips, typically seasoned with salt and spices, to prevent spoilage.  The process relies on reducing moisture content to inhibit microbial growth and achieve a long shelf life. Proper technique is crucial to prevent the meat from cooking during the drying process.",
+        "unlocks": [
+            "pemmican"
+        ]
+    },
+    {
+        "node_id": "curing_(food_preservation)",
+        "title": "Curing (food preservation)",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "tundra",
+            "urban",
+            "universal"
+        ],
+        "prerequisites": [
+            "fire_making",
+            "animal_tracking",
+            "meat_smoking"
+        ],
+        "materials": [
+            "table salt",
+            "sodium nitrate",
+            "sodium nitrite",
+            "potassium nitrate"
+        ],
+        "action_steps": [
+            "Gather salt.",
+            "Combine salt with nitrates or nitrites (curing salt).",
+            "Rub the mixture thoroughly over the meat.",
+            "Hang the meat to dry and cure."
+        ],
+        "theory": "Curing involves using salt, nitrates, or nitrites to draw out moisture from meat, creating an environment hostile to microbial growth, thus extending its shelf life and preventing spoilage. It\u2019s a method developed historically to address food scarcity and transport challenges.",
+        "unlocks": [
+            "jerky"
+        ]
+    },
+    {
+        "node_id": "mushroom_hunting",
+        "title": "Mushroom hunting",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "jungle",
+            "universal"
+        ],
+        "prerequisites": [
+            "foraging"
+        ],
+        "materials": [
+            "field guides on mushrooms",
+            "spore print material"
+        ],
+        "action_steps": [
+            "Locate mushroom patches based on seasonal conditions and biomes.",
+            "Carefully examine mushrooms for morphological characteristics (caps, gills, stems).",
+            "Create a spore print to aid in identification.",
+            "Consult field guides and utilize microscopic examination when necessary."
+        ],
+        "theory": "Mushroom hunting involves identifying and collecting edible or valuable mushrooms for food, materials, or other uses. Accurate identification is crucial due to the potential for poisonous species. Observation of morphological features and spore prints is key to differentiating between safe and dangerous varieties.",
+        "unlocks": []
+    },
+    {
+        "node_id": "spearfishing",
+        "title": "Spearfishing",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "jungle",
+            "urban",
+            "universal"
+        ],
+        "prerequisites": [
+            "foraging",
+            "knapping",
+            "water_filter",
+            "fishing"
+        ],
+        "materials": [
+            "sharpened stick",
+            "elastic",
+            "harpoon",
+            "diving mask",
+            "fins",
+            "snorkel"
+        ],
+        "action_steps": [
+            "Find a suitable body of water.",
+            "Craft a spear or speargun.",
+            "Learn free-diving or snorkeling techniques.",
+            "Aim and strike at target fish."
+        ],
+        "theory": "Spearfishing is a direct fishing method utilizing a handheld spear or speargun to capture fish. It relies on precision, stealth, and an understanding of fish behavior, demanding stamina and skill.",
+        "unlocks": []
+    },
+    {
+        "node_id": "fish_trap",
+        "title": "Fish trap",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "jungle",
+            "urban",
+            "universal"
+        ],
+        "prerequisites": [
+            "foraging",
+            "woodworking"
+        ],
+        "materials": [
+            "wood",
+            "fibre",
+            "stone",
+            "steel_wire",
+            "chicken_wire"
+        ],
+        "action_steps": [
+            "Gather suitable wood and fibre.",
+            "Construct a frame for the trap.",
+            "Weave or stretch chicken wire around the frame to create a mesh.",
+            "Shape the mesh to create a funnel-like structure that prevents fish from escaping."
+        ],
+        "theory": "Fish traps utilize natural formations and constructed barriers to guide fish into confined spaces, preventing their escape. Variations exist across cultures and materials, from simple woven baskets to complex stone structures designed to exploit tidal patterns or river currents.",
+        "unlocks": [
+            "pemmican",
+            "meat_smoking"
+        ]
+    },
+    {
+        "node_id": "bast_fibre",
+        "title": "Bast Fibre",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "jungle",
+            "universal"
+        ],
+        "prerequisites": [
+            "foraging",
+            "woodworking"
+        ],
+        "materials": [
+            "stinging nettle",
+            "lime trees",
+            "linden trees",
+            "willow trees",
+            "oak trees",
+            "wisteria",
+            "mulberry trees"
+        ],
+        "action_steps": [
+            "Harvest bast fibre from selected plants.",
+            "Perform retting (micro-organisms, water, or chemicals) to separate fibre bundles.",
+            "Process fibre bundles into elementary fibres."
+        ],
+        "theory": "Bast fibre is a strong, flexible plant fibre extracted from the inner bark (phloem) of various trees and plants. Retting \u2013 a process of separating the fibres \u2013 is key to obtaining usable material. It\u2019s valued for its tensile strength and versatility in textiles, ropes, and composites.",
+        "unlocks": [
+            "basketry"
+        ]
+    },
+    {
+        "node_id": "spindle_whorl",
+        "title": "Spindle whorl",
+        "category": "survival",
+        "biomes": [
+            "universal"
+        ],
+        "prerequisites": [
+            "cordage"
+        ],
+        "materials": [
+            "amber",
+            "antler",
+            "bone",
+            "ceramic",
+            "coral",
+            "glass",
+            "stone",
+            "metal",
+            "wood"
+        ],
+        "action_steps": [
+            "Create a weighted disk to attach to a spindle."
+        ],
+        "theory": "A spindle whorl is a weighted object that attaches to a spindle, aiding in maintaining rotation speed during yarn spinning. It is a crucial tool for efficient fiber processing and textile production.",
+        "unlocks": [
+            "n\u00e5lebinding"
+        ]
+    },
+    {
+        "node_id": "n\u00e5lebinding",
+        "title": "N\u00e5lebinding",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "tundra",
+            "urban"
+        ],
+        "prerequisites": [
+            "cordage"
+        ],
+        "materials": [
+            "wood",
+            "antler",
+            "bone",
+            "plastic",
+            "bast fibre"
+        ],
+        "action_steps": [
+            "Create a needle from wood, antler, or bone."
+        ],
+        "theory": "N\u00e5lebinding is a fabric creation technique using a single needle to interlock loops of yarn, creating an elastic fabric. It differs from knitting by requiring joining of strands and from crochet by passing the full length of the yarn through each loop. It has a long history, predating knitting and crochet, and was utilized extensively in Viking-era Scandinavia.",
+        "unlocks": []
+    },
+    {
+        "node_id": "gourd",
+        "title": "Gourd",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "jungle",
+            "universal"
+        ],
+        "prerequisites": [],
+        "materials": [
+            "Lagenaria siceraria",
+            "Cucurbita spp.",
+            "Crescentia cujete"
+        ],
+        "action_steps": [
+            "Harvest mature gourds.",
+            "Dry gourds thoroughly."
+        ],
+        "theory": "Gourds, particularly species of Cucurbita and Lagenaria, are versatile fruits with hard shells that can be utilized for a variety of purposes including containers, tools, musical instruments, and food storage. Their historical significance as one of the earliest domesticated plants highlights their importance in early human societies.",
+        "unlocks": []
+    },
+    {
+        "node_id": "travois",
+        "title": "Travois",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "tundra",
+            "urban"
+        ],
+        "prerequisites": [
+            "foraging",
+            "woodworking",
+            "lashing_(ropework)"
+        ],
+        "materials": [
+            "wood",
+            "buffalo sinew",
+            "aspens or cottonwood poles",
+            "buffalo skin"
+        ],
+        "action_steps": [
+            "Construct an A-frame structure with two long poles lashed together.",
+            "Lash cross-bars between the poles near the ends.",
+            "Add a shoulder harness for improved dragging (optional)."
+        ],
+        "theory": "The travois is a simple, yet effective, dragging device utilizing a frame constructed from poles and lashed together, primarily employed for transporting goods over land, particularly by Indigenous peoples. It relies on leverage and a dragging motion for efficient transport.",
+        "unlocks": [
+            "pemmican",
+            "trotline",
+            "dugout_canoe",
+            "snowshoe"
+        ]
+    },
+    {
+        "node_id": "snow_goggles",
+        "title": "Snow goggles",
+        "category": "survival",
+        "biomes": [
+            "tundra",
+            "forest"
+        ],
+        "prerequisites": [
+            "woodworking",
+            "lashing_(ropework)",
+            "hide_tanning"
+        ],
+        "materials": [
+            "driftwood",
+            "bone",
+            "walrus ivory",
+            "caribou antler",
+            "seashore grass",
+            "sinew",
+            "leather",
+            "rawhide",
+            "soot"
+        ],
+        "action_steps": [
+            "Carve workpiece to fit face.",
+            "Carve narrow horizontal slits through the front.",
+            "Craft adjustable head strap from sinew, leather, or rawhide.",
+            "Apply soot to the inside (optional)."
+        ],
+        "theory": "Snow goggles protect the eyes from the damaging effects of reflected sunlight off snow by limiting the amount of light entering the eyes through narrow slits, thereby preventing snow blindness. The tight fit and adjustable strap ensure optimal protection.",
+        "unlocks": []
+    },
+    {
+        "node_id": "celestial_navigation",
+        "title": "Celestial navigation",
+        "category": "survival",
+        "biomes": [
+            "universal"
+        ],
+        "prerequisites": [
+            "foraging",
+            "water_filter"
+        ],
+        "materials": [
+            "torch",
+            "compass"
+        ],
+        "action_steps": [
+            "Observe the altitude of the Sun or other celestial body (e.g., Moon, star) against the horizon.",
+            "Record the precise time of the observation (local noon).",
+            "Using a navigational chart and almanac, perform sight reduction calculations to determine latitude and longitude."
+        ],
+        "theory": "Celestial navigation is the art of determining one's position by observing the positions of celestial bodies (stars, Sun, Moon, planets) relative to the horizon. It relies on angular measurements and mathematical reduction to calculate latitude and longitude without modern electronic aids.",
+        "unlocks": []
+    },
+    {
+        "node_id": "punt_(boat)",
+        "title": "Punt (boat)",
+        "category": "survival",
+        "biomes": [
+            "universal"
+        ],
+        "prerequisites": [
+            "woodworking",
+            "lashing_(ropework)"
+        ],
+        "materials": [
+            "wood",
+            "teak"
+        ],
+        "action_steps": [
+            "Construct a flat-bottomed boat with square-cut bow and stern.",
+            "Assemble side-panels and cross-planks (treads) to create the hull.",
+            "Secure the structure with lashing techniques."
+        ],
+        "theory": "A punt is a stable, maneuverable boat ideal for shallow rivers and streams. It is constructed from wooden planks and requires woodworking and ropework skills for its fabrication. Its unique shape provides increased cargo capacity and stability.",
+        "unlocks": [
+            "fishing"
+        ]
+    },
+    {
+        "node_id": "rammed_earth",
+        "title": "Rammed earth",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "tundra",
+            "desert",
+            "jungle",
+            "urban",
+            "universal"
+        ],
+        "prerequisites": [],
+        "materials": [
+            "earth",
+            "chalk",
+            "lime",
+            "gravel",
+            "sand",
+            "clay",
+            "silt"
+        ],
+        "action_steps": [
+            "Construct a formwork (wooden or plywood frame)",
+            "Mix damp soil with sand, gravel, clay, silt, and stabilizer (lime or animal blood)",
+            "Pour soil mixture into formwork to a depth of 10-25 cm",
+            "Compact soil iteratively using a ramming pole or pneumatic tamper",
+            "Gradually erect wall up to the top of the formwork",
+            "Remove formwork after approximately one hour to apply a texture"
+        ],
+        "theory": "Rammed earth is a sustainable building technique involving compacting a damp mixture of soil, chalk, lime, or gravel into a formwork to create walls. Compaction increases compressive strength, and stabilization (like lime or cement) enhances durability and load-bearing capacity.",
+        "unlocks": [
+            "adobe",
+            "earth_oven",
+            "pit_firing",
+            "raised_bed_gardening"
+        ]
+    },
+    {
+        "node_id": "dry_stone",
+        "title": "Dry stone",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "tundra",
+            "urban",
+            "universal"
+        ],
+        "prerequisites": [
+            "foraging",
+            "woodworking"
+        ],
+        "materials": [
+            "stone"
+        ],
+        "action_steps": [
+            "Select suitable stones from the surrounding area.",
+            "Carefully cut and shape the stones to interlock.",
+            "Dry lay the stones, utilizing the natural shape and fit to create a stable wall."
+        ],
+        "theory": "Dry stone construction relies on the precise fit and weight of stones, creating stable structures without the need for mortar. Skillful stone selection and cutting are crucial to the wall's durability and resistance to weathering.",
+        "unlocks": []
+    },
+    {
+        "node_id": "palisade",
+        "title": "Palisade",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "urban"
+        ],
+        "prerequisites": [
+            "woodworking",
+            "shelter_building"
+        ],
+        "materials": [
+            "tree trunks",
+            "wood",
+            "pitch_(resin)"
+        ],
+        "action_steps": [
+            "Select suitable tree trunks.",
+            "Prepare the ground and establish a perimeter.",
+            "Drive the tree trunks vertically into the ground, sharpening the ends.",
+            "Reinforce the structure with additional wood and pitch for weatherproofing."
+        ],
+        "theory": "A palisade is a simple, rapidly constructed defensive structure utilizing closely spaced upright wooden stakes to create an enclosure. It's a cost-effective solution for temporary fortifications, particularly effective against small-scale attacks and providing a deterrent.",
+        "unlocks": []
+    },
+    {
+        "node_id": "guano",
+        "title": "Guano",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "tundra",
+            "jungle",
+            "urban"
+        ],
+        "prerequisites": [
+            "foraging"
+        ],
+        "materials": [
+            "seabird excrement",
+            "bat excrement"
+        ],
+        "action_steps": [
+            "Collect seabird or bat guano from suitable locations (caves, bird islands).",
+            "Process guano to remove debris and improve nutrient concentration."
+        ],
+        "theory": "Guano is a rich natural fertilizer due to its high nitrogen, phosphate, and potassium content, derived from bird or bat waste. It can be utilized to significantly increase crop yields, particularly in nutrient-poor soils.  Different bat diets result in variations in pH and chitin content impacting fungal growth.",
+        "unlocks": [
+            "agriculture_basics",
+            "raised_bed_gardening",
+            "adobe"
+        ]
+    },
+    {
+        "node_id": "native_copper",
+        "title": "Native Copper",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "tundra",
+            "universal"
+        ],
+        "prerequisites": [],
+        "materials": [
+            "native_copper"
+        ],
+        "action_steps": [
+            "Gather native copper deposits"
+        ],
+        "theory": "Native copper is a naturally occurring metallic element, often found in irregular masses or fracture fillings. It's relatively soft and easily worked, making it valuable for early toolmaking. Understanding its formation and location is key to accessing this valuable resource.",
+        "unlocks": []
+    },
+    {
+        "node_id": "meteoric_iron",
+        "title": "Meteoric iron",
+        "category": "survival",
+        "biomes": [
+            "tundra",
+            "urban",
+            "universal"
+        ],
+        "prerequisites": [],
+        "materials": [
+            "meteoric_iron"
+        ],
+        "action_steps": [
+            "Find meteoric iron deposits"
+        ],
+        "theory": "Meteoric iron is a rare native metal found in meteorites, possessing unique properties due to its nickel-iron composition. It requires specialized techniques to extract and refine, representing a significant technological advancement.",
+        "unlocks": []
+    },
+    {
+        "node_id": "smelting",
+        "title": "Smelting",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "urban"
+        ],
+        "prerequisites": [
+            "fire_making",
+            "charcoal_making",
+            "copper_smelting"
+        ],
+        "materials": [
+            "native_copper",
+            "coke",
+            "limestone"
+        ],
+        "action_steps": [
+            "Build a blast furnace or pit firing setup.",
+            "Roast sulfide or carbonate ores to remove sulfur or carbon dioxide.",
+            "Introduce carbon monoxide (from charcoal) as a reducing agent to react with the oxide and remove oxygen."
+        ],
+        "theory": "Smelting is a process of using heat and a reducing agent (like charcoal or carbon monoxide) to extract a base metal from its ore. It involves chemical reactions to break down the ore's compound and remove impurities, leaving behind the desired metal. Roasting is a preliminary step to convert sulfide and carbonate ores into oxides, which are then reduced.",
+        "unlocks": []
+    },
+    {
+        "node_id": "crucible",
+        "title": "Crucible",
+        "category": "survival",
+        "biomes": [
+            "universal"
+        ],
+        "prerequisites": [],
+        "materials": [
+            "clay",
+            "native_copper"
+        ],
+        "action_steps": [
+            "Heat materials to high temperatures using fire."
+        ],
+        "theory": "A crucible is a container used to withstand high temperatures, primarily for smelting and melting metals, particularly during copper and iron production. Early designs involved clay vessels, while later designs utilized more refractory materials like native copper to improve heat retention and stability.",
+        "unlocks": []
+    },
+    {
+        "node_id": "bloomery",
+        "title": "Bloomery",
+        "category": "survival",
+        "biomes": [
+            "forest",
+            "tundra",
+            "urban"
+        ],
+        "prerequisites": [
+            "fire_making",
+            "woodworking",
+            "clay_gathering"
+        ],
+        "materials": [
+            "charcoal",
+            "iron ore",
+            "clay",
+            "limestone"
+        ],
+        "action_steps": [
+            "Prepare charcoal and iron ore.",
+            "Construct a bloomery pit or chimney with heat-resistant walls.",
+            "Install tuyeres (clay or metal pipes) for air intake.",
+            "Introduce charcoal, iron ore, and additional charcoal through the top of the bloomery.",
+            "Control temperature and charcoal-to-ore ratio to produce sponge iron (bloom)."
+        ],
+        "theory": "A bloomery is a primitive furnace for smelting iron ore using charcoal. It produces a porous mass of iron and slag, known as a 'bloom', through a reduction process that operates at lower temperatures than melting the ore itself, allowing for subsequent forging into wrought iron.",
+        "unlocks": [
+            "copper_smelting"
+        ]
     }
 ]
