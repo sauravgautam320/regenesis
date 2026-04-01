@@ -4,8 +4,6 @@ __pycache__/
 
 # Generated data
 ai_debug/
-genesis_nodes.json
-wikipedia_vault.json
 
 # Environment
 .env
