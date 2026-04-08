@@ -1,6 +1,6 @@
 # Regen — Knowledge-to-TechTree Generator
 
-Small script that fetches short Wikipedia extracts and uses a local model server to convert them into structured "tech tree" nodes. Survival focused skills cruncher.
+Small script that fetches short Wikipedia extracts related to skills or given array data and uses a local model server to convert them into structured "tech tree" nodes. Survival focused skills cruncher.
 
 ## Requirements
 - Python 3.10+
